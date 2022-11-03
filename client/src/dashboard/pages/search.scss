@@ -1,0 +1,169 @@
+:root {
+    --background: #131313;
+    --widget: #202124;
+    --green:#00ebc7;
+    --red:#ff5470;
+    --purple: #7b2cbf;
+  }
+.chart{
+   
+}
+.history{
+    
+    
+   
+    background-color: var(--widget);
+    width: 95vw;
+    height: 95vh;
+    margin-left: -0.95em;
+    margin-top: 1.35em;
+    padding-top: 1em;
+    Table{
+        text-align: center;
+    }
+   
+   
+    
+}
+.holdingspage{
+    text-align: center;
+    background-color: var(--widget);
+    width: 95vw;
+    height: 95vh;
+    margin-left: -0.95em;
+    margin-top: 1.35em;
+    padding-top: 1em;
+    
+    th{
+        color: #F6F6F6;
+    }
+    td{
+        color: #F6F6F6;
+        
+        
+        
+    }
+    .green{
+        color: var(--green);
+    }
+    .red{
+        color: var(--red);
+    }
+    
+}
+.research{
+    
+    background-color: var(--widget);
+    width: 95vw;
+    height: 300vh;
+    margin-left: -0.95em;
+    margin-top: 1.35em;
+    padding-top: 1em;
+   
+
+
+
+    h1{
+        
+        text-align: center;
+        color: white;
+
+    }
+    .page{
+        margin-left: 2em;
+    }
+
+    .Pagination{
+        background-color: #263249;
+        align-items:"center"
+        
+    }
+
+
+    .articels{
+        padding-left: 12em;
+        
+        
+    }
+}
+.article{
+    background-color: #263249;
+    
+    justify-content: center;
+    margin:  4em;
+    border-radius: 2em;
+   
+    width: 70em;
+    height: 12em;
+    
+        
+            
+
+        
+        
+    
+
+   
+    a{
+        text-decoration: none;
+    }
+
+    ul{
+        
+        
+        list-style: none;
+
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+
+    }
+    
+    .left{
+        margin-right: 2em;
+        img{
+        height: 12em;
+        width: 20em;
+        border-radius: 1.9em;
+
+        }
+        
+
+    }
+
+    .right{
+
+        h1{
+            text-align: center;
+            color:  rgb(206, 206, 206);
+            text-decoration: none;
+            
+            
+
+        }
+        p{
+            color: rgb(206, 206, 206);
+            text-decoration: none;
+
+            text-align: left;
+            text-decoration: none;
+        }
+        h3{
+            color:  rgb(206, 206, 206);
+            margin-top: -1em;
+
+
+
+        }
+        margin-top: -0.5em;
+        display: block;
+    }
+    
+
+
+}
+
+
+
+

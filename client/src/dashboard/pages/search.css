@@ -1,0 +1,136 @@
+:root {
+  --background: #131313;
+  --widget: #202124;
+  --green:#00ebc7;
+  --red:#ff5470;
+  --purple: #7b2cbf;
+}
+
+.history {
+  background-color: var(--widget);
+  width: 95vw;
+  height: 95vh;
+  margin-left: -0.95em;
+  margin-top: 1.35em;
+  padding-top: 1em;
+}
+
+.history Table {
+  text-align: center;
+}
+
+.holdingspage {
+  text-align: center;
+  background-color: var(--widget);
+  width: 95vw;
+  height: 95vh;
+  margin-left: -0.95em;
+  margin-top: 1.35em;
+  padding-top: 1em;
+}
+
+.holdingspage th {
+  color: #F6F6F6;
+}
+
+.holdingspage td {
+  color: #F6F6F6;
+}
+
+.holdingspage .green {
+  color: var(--green);
+}
+
+.holdingspage .red {
+  color: var(--red);
+}
+
+.research {
+  background-color: var(--widget);
+  width: 95vw;
+  height: 300vh;
+  margin-left: -0.95em;
+  margin-top: 1.35em;
+  padding-top: 1em;
+}
+
+.research h1 {
+  text-align: center;
+  color: white;
+}
+
+.research .page {
+  margin-left: 2em;
+}
+
+.research .Pagination {
+  background-color: #263249;
+  -webkit-box-align: "center";
+      -ms-flex-align: "center";
+          align-items: "center";
+}
+
+.research .articels {
+  padding-left: 12em;
+}
+
+.article {
+  background-color: #263249;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 4em;
+  border-radius: 2em;
+  width: 70em;
+  height: 12em;
+}
+
+.article a {
+  text-decoration: none;
+}
+
+.article ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.article .left {
+  margin-right: 2em;
+}
+
+.article .left img {
+  height: 12em;
+  width: 20em;
+  border-radius: 1.9em;
+}
+
+.article .right {
+  margin-top: -0.5em;
+  display: block;
+}
+
+.article .right h1 {
+  text-align: center;
+  color: #cecece;
+  text-decoration: none;
+}
+
+.article .right p {
+  color: #cecece;
+  text-decoration: none;
+  text-align: left;
+  text-decoration: none;
+}
+
+.article .right h3 {
+  color: #cecece;
+  margin-top: -1em;
+}
+/*# sourceMappingURL=search.css.map */

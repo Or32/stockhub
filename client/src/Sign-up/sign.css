@@ -1,0 +1,27 @@
+body {
+  background: #F8F9FA;
+}
+
+.signup {
+  height: 100vh;
+  width: 100vw;
+  background-color: #F8F9FA;
+  margin-left: -1em;
+  margin-top: -1em;
+}
+
+.signin {
+  background-color: white;
+  margin-top: -2em;
+  margin-left: -1em;
+  height: 120vh;
+  width: 100vw;
+  padding-top: 2em;
+  padding-left: 1em;
+}
+
+.signin p {
+  text-align: center;
+  color: red;
+}
+/*# sourceMappingURL=sign.css.map */

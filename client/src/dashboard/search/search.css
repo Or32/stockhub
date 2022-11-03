@@ -1,0 +1,240 @@
+:root {
+  --background: #131313;
+  --widget: #202124;
+  --green:#00ebc7;
+  --red:#ff5470;
+  --purple: #7b2cbf;
+}
+
+.search {
+  margin-top: 1.35em;
+  margin-left: -0.95em;
+  background-color: var(--background);
+  width: 95vw;
+  height: 100vh;
+  padding-left: 1em;
+}
+
+.search .tabs {
+  color: white;
+}
+
+.search Tab {
+  color: white;
+}
+
+.search .head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: -1em;
+  color: white;
+}
+
+.search .head img {
+  border-radius: 50%;
+  width: 50px;
+  margin: 1em;
+}
+
+.search .head .watchlist {
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  position: absolute;
+  top: 6em;
+  right: 4em;
+}
+
+.search .head .watchlist .yes {
+  fill: #ffb703;
+  cursor: pointer;
+  border: #ff5470;
+}
+
+.search .head .watchlist .yes:active {
+  -webkit-transform: translateY(4px);
+          transform: translateY(4px);
+}
+
+.search .head .watchlist .no {
+  cursor: pointer;
+}
+
+.search .head .watchlist .no:active {
+  -webkit-transform: translateY(4px);
+          transform: translateY(4px);
+}
+
+.search .main {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: -2em;
+}
+
+.search .main .chart {
+  height: 30em;
+  width: 80em;
+  visibility: visible;
+  margin-top: 4em;
+  margin-left: 4em;
+}
+
+.search .main .panel {
+  height: 30em;
+  width: 20em;
+  margin: 2em;
+  border-radius: 1em;
+  background-color: var(--widget);
+}
+
+.search .main .panel ul {
+  list-style: none;
+  text-align: left;
+  color: white;
+}
+
+.search .main .panel ul .red {
+  color: var(--red);
+}
+
+.search .main .panel ul .green {
+  color: var(--green);
+}
+
+.search .main .panel ul li {
+  margin: 3em;
+}
+
+.search .main .panel .buy {
+  margin-top: 1em;
+  margin-left: 2em;
+  width: 14em;
+}
+
+.search .main .amountToBuy {
+  margin-left: 4em;
+}
+
+.profile-tab {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.profile-tab ul {
+  list-style: none;
+}
+
+.profile-tab .row {
+  width: 50em;
+  margin-top: -2em;
+  line-height: 2em;
+}
+
+.finance-tab {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: var(--background);
+  height: 60em;
+  width: 100vw;
+  margin-left: -3em;
+}
+
+.finance-tab ul {
+  width: 52em;
+  list-style: none;
+}
+
+.finance-tab ul li span {
+  text-align: right;
+  color: grey;
+}
+
+.analysis-tab {
+  height: 20em;
+  background-color: var(--background);
+  height: 60em;
+  width: 100vw;
+  margin-left: -3em;
+  padding-left: 8em;
+  max-height: 60em;
+}
+
+.analysis-tab .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.analysis-tab .top .priceTarget h1 {
+  margin-left: 1em;
+}
+
+.analysis-tab .top .info {
+  height: 10em;
+  border-style: solid;
+  border-radius: 0.5em;
+  width: 50em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.analysis-tab .top .info .left {
+  margin: auto;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 7em;
+  height: 7em;
+  border-radius: 90%;
+}
+
+.analysis-tab .top .info .right {
+  margin-left: 0em;
+  width: 40em;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.analysis-tab .top .info .right ul {
+  list-style: none;
+}
+
+.analysis-tab .top .info .right ul li {
+  margin-bottom: 0.7em;
+}
+
+.analysis-tab .low {
+  margin-left: 25em;
+}
+
+.newsTab {
+  width: 100em;
+  background-color: var(--background);
+  height: 50em;
+  width: 100vw;
+  margin-left: -3em;
+  padding-top: 2em;
+  padding-left: 1em;
+  max-height: 60em;
+}
+
+.paper {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5)));
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
+
+.form {
+  margin: 1em;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+/*# sourceMappingURL=search.css.map */

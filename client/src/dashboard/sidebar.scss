@@ -1,0 +1,131 @@
+
+:root {
+    --background: #131313;
+    --widget: #202124;
+    --green:#00ebc7;
+    --red:#ff5470;
+    --purple: #7b2cbf;
+    --white: rgb(255, 255, 255);
+  }
+ 
+  
+
+.sidebar{
+    border-right-style: solid;
+    margin: -1em;
+    position: 0,0;
+    position: fixed;
+    background: var(--widget);
+    width: 6em;
+    height: 110%;
+   
+
+    .logo{
+        margin-top: 0em ;
+        margin-bottom: 4em;
+        
+        padding-top: 3em;
+        justify-content: center;
+        align-items: center;
+
+        img{
+            margin-left: -3em;
+            margin-top: -5em;
+            width: 12em;
+            filter: brightness(150%);
+            
+            
+            
+        }
+        
+
+      
+    }
+    .mid{
+
+        
+    
+        margin-bottom: 10em;
+        list-style: none;
+        
+
+        
+        li{
+            margin-bottom: 3em;
+            //background-color: #ff5470;
+            
+
+           svg{
+               color: var(--purple);
+           }
+
+            
+        }
+    }
+
+    .low{
+        list-style: none;
+        li{
+            margin-bottom: 4em;
+            svg{
+                color: var(--purple);
+                cursor: pointer;
+            }
+            
+        }
+
+    }
+}
+
+
+.navbar{
+    height: 5em;
+    margin-bottom: 0;
+    margin-top:-1em ;
+    width: 95vw;
+    margin-left: 5em;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    border-bottom-style:solid ;
+    border-color: var(--widget);
+    background-color: var(--background);
+
+    .right{
+
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        li{
+            margin-left: 3em;
+            h1{
+                color: var(--purple);
+            }
+        }
+    }
+
+    .left{
+        display: flex;
+        align-items: center;  
+        list-style: none;
+
+
+        li{
+            margin-right: 1em;
+
+            .searchbar{
+                width: 23em;
+               
+               background-color: var(--mantine-color-black);
+            }
+        }
+    }
+}
+
+.change{
+    margin-top: -1.35em;
+    margin-left: 6.01em;
+    
+    
+}

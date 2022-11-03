@@ -1,0 +1,128 @@
+:root {
+  --background: #131313;
+  --widget: #202124;
+  --green:#00ebc7;
+  --red:#ff5470;
+  --purple: #7b2cbf;
+  --white: rgb(255, 255, 255);
+}
+
+.sidebar {
+  border-right-style: solid;
+  margin: -1em;
+  position: 0,0;
+  position: fixed;
+  background: var(--widget);
+  width: 6em;
+  height: 110%;
+}
+
+.sidebar .logo {
+  margin-top: 0em;
+  margin-bottom: 4em;
+  padding-top: 3em;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sidebar .logo img {
+  margin-left: -3em;
+  margin-top: -5em;
+  width: 12em;
+  -webkit-filter: brightness(150%);
+          filter: brightness(150%);
+}
+
+.sidebar .mid {
+  margin-bottom: 10em;
+  list-style: none;
+}
+
+.sidebar .mid li {
+  margin-bottom: 3em;
+}
+
+.sidebar .mid li svg {
+  color: var(--purple);
+}
+
+.sidebar .low {
+  list-style: none;
+}
+
+.sidebar .low li {
+  margin-bottom: 4em;
+}
+
+.sidebar .low li svg {
+  color: var(--purple);
+  cursor: pointer;
+}
+
+.navbar {
+  height: 5em;
+  margin-bottom: 0;
+  margin-top: -1em;
+  width: 95vw;
+  margin-left: 5em;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom-style: solid;
+  border-color: var(--widget);
+  background-color: var(--background);
+}
+
+.navbar .right {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style: none;
+}
+
+.navbar .right li {
+  margin-left: 3em;
+}
+
+.navbar .right li h1 {
+  color: var(--purple);
+}
+
+.navbar .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+}
+
+.navbar .left li {
+  margin-right: 1em;
+}
+
+.navbar .left li .searchbar {
+  width: 23em;
+  background-color: var(--mantine-color-black);
+}
+
+.change {
+  margin-top: -1.35em;
+  margin-left: 6.01em;
+}
+/*# sourceMappingURL=sidebar.css.map */

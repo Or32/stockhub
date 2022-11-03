@@ -1,0 +1,72 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@chakra-ui/react": "^2.2.9",
+    "@coreui/react": "^4.3.1",
+    "@coreui/react-chartjs": "^2.1.0",
+    "@emotion/react": "^11.10.0",
+    "@emotion/styled": "^11.10.0",
+    "@mantine/carousel": "^5.2.4",
+    "@mantine/core": "^5.2.0",
+    "@mantine/hooks": "^5.2.0",
+    "@mui/lab": "^5.0.0-alpha.96",
+    "@mui/material": "^5.10.2",
+    "@progress/kendo-drawing": "^1.17.0",
+    "@progress/kendo-licensing": "^1.2.2",
+    "@progress/kendo-react-charts": "^5.5.0",
+    "@progress/kendo-react-intl": "^5.5.0",
+    "@splinetool/react-spline": "^2.2.3",
+    "@tabler/icons": "^1.84.0",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^0.27.2",
+    "basicscroll": "^3.0.4",
+    "chart.js": "^3.9.1",
+    "embla-carousel-autoplay": "^7.0.3",
+    "framer-motion": "^7.2.1",
+    "hammerjs": "^2.0.8",
+    "highcharts": "^10.2.0",
+    "highcharts-react-official": "^3.1.0",
+    "react": "^18.2.0",
+    "react-chartjs-2": "^4.3.1",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "recharts": "^2.1.13",
+    "rsuite": "^5.17.0",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^2.1.3",
+    "styled-components": "^5.3.6",
+    "victory": "^36.6.4",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "react-router-dom": "^6.3.0"
+  }
+}
