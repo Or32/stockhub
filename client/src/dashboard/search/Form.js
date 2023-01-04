@@ -18,10 +18,6 @@ const handleclick =()=>{
           const response = await axios.put(
             `https://stockhub-project.herokuapp.com/${kind}`,{
                 
-                    // "ticker":props.tikcer,
-                    // "amount": amount,
-                    // "price": props.price.c
-                    // //'all': 
                     'ticker':props.ticker,
                     "amount": amount,
                      'price':amount* props.price.c,
@@ -31,7 +27,7 @@ const handleclick =()=>{
             },
         {headers: {
             
-            authorization: token///jwt
+            authorization: token ///jwt
             
 }}
         

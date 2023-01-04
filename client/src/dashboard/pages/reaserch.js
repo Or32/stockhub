@@ -19,7 +19,7 @@ export default function Reaserch(){
     }, [])
 
     
-   //`https://finnhub.io/api/v1/news?category=general&token=cc1505qad3iblgaihpag`
+   
 
       const articleElement = articles.map(article=>(
         <Article 

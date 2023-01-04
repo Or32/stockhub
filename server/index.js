@@ -36,7 +36,7 @@ function authenticateToken(req, res, next) {
   }
 
 const mongoose = require('mongoose');
-mongoose.connect("mongodb+srv://or1:goodor32@cluster0.qs9b3tg.mongodb.net/mern-tutorial?retryWrites=true&w=majority");
+mongoose.connect("mongodb+srv://or1:goodor32@cluster0.qs9b3tg.mongodb.net/?retryWrites=true&w=majority");
 
 
 app.get("/", (req,res)=>{
@@ -93,7 +93,6 @@ app.put("/buy",authenticateToken, async(req,res)=>{
     const amount = req.body.amount;
     const price = req.body.price;
     console.log(req.user.gmail)
-    //'stock.holding':{  $elemMatch: { ticker: ticker } }, 
     const user =   await UserModel.findOne({_id: req.user.id});
     const exist =  await UserModel.findOne({'stock.holding':{  $elemMatch: { ticker: ticker } },'details.gmail': req.user.gmail});
     console.log(user.stock.avialableBalance)
