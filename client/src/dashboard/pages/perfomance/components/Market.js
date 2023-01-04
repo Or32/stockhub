@@ -53,18 +53,7 @@ export default function Market(){
         else{
             setloaded3(false)
         }})
-        //console.log("dow:" + dow)
-        //console.log(russel)
-
-
-        
-
-        
-        
-        
-
-        //console.log(Math.sign(((russel.values[99].close - russel.values[0].close))))
-        // console.log(dow.values[0].close)
+      
 
        
 
@@ -72,12 +61,7 @@ export default function Market(){
 
       }, []);
 
-    //   if(loaded){
-    //     console.log(dow.values[99].cl)
-
-    //   }
-    //        console.log(dow)
-    //     console.log("--" + loaded)
+   
 
       
     
