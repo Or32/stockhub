@@ -10,7 +10,8 @@
 
 # production
 /build
-client/src/img
+/src/img
+/img
 
 # misc
 .DS_Store
