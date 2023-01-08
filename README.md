@@ -22,4 +22,6 @@ $ npm start
 
 
 note: the files as seen are opetimized for production and hosting on netifly and heroku
+the website is not currently connected to the backend
+
 
