@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 import { Tooltip,Modal,Image} from '@mantine/core';
 import logo from '../img/logo.png'
 import { Carousel } from '@mantine/carousel';
-import dashboard from '/Users/orcohen/Documents/mern-app-learn/client/src/img/dashboad.png';
+import dashboard from '../img/dashboad.png';
 import holdings from '../img/holdings.png';
 import news from '../img/news.png';
 import search from '../img/search.png';
