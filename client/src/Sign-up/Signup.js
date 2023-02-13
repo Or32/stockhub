@@ -84,7 +84,7 @@ export default function SignUp(){
 
             
 
-        axios.post('https://stockhub-project.herokuapp.com/signup', {
+        axios.post('https://stockhub-64px.vercel.app/signup', {
             name: name,
             gmail: gmail,
             password: password

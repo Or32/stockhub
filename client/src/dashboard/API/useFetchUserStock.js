@@ -16,7 +16,7 @@ export default  function UseFetchUserStock(jwt){// jwt is needed
           (async () => {
             try {
               const response = await axios.get(
-                'https://stockhub-project.herokuapp.com/getuser',{
+                'https://stockhub-64px.vercel.app/getuser',{
     headers: {
       'Authorization': jwt,///jwt
     }

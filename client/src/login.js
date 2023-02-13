@@ -16,7 +16,7 @@ function Login({setjwt}) {
     function handleSubmit(){
         
         
-        axios.post('http://localhost:3000/login', {
+        axios.post('https://stockhub-64px.vercel.app/login', {
             name: name,
             password: password
         }).then((respond)=>{

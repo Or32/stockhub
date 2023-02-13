@@ -34,7 +34,7 @@ import Home from './Home/Home';
   
 
   useEffect(() => {
-     axios.get('https://stockhub-project.herokuapp.com/getuser',{
+     axios.get('https://stockhub-64px.vercel.app/getuser',{
     headers: {
       'Authorization': jwt,///jwt
     }
